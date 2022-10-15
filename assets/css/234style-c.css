@@ -1,0 +1,21 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    font-weight: 500;
+
+}
+
+body {
+    background: linear-gradient(rgb(50, 50, 50), rgb(0, 0, 0, 0.5));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+.bg img {
+    max-width: 100%;
+}   
+
+.bg {
+    text-align: center;
+}
