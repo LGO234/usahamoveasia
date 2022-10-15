@@ -1,7 +1,7 @@
 /*=============== SCROLL UP ===============*/
 .scrollup{
     position: fixed;
-    background: var(--first-color);
+    background: var(--container-color);
     right: 1rem;
     bottom: -20%;
     display: inline-flex;
@@ -30,15 +30,10 @@
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar{
     width: .6rem;
-    border-radius: .5rem;
-    background-color: var(--scroll-bar-color);
+    background: #413e3e;
 
     &-thumb{
-        background-color: var(--scroll-thumb-color);
+        background: #272525;
         border-radius: .5rem;
-        
-        &:hover{
-            background-color: var(--text-color-light);
-        }
     }
 }
